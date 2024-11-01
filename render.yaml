@@ -32,6 +32,7 @@ services:
 - type: pserv
   name: mysql-wordpress
   repo: https://github.com/render-examples/mysql.git
+  branch: mysql-5
   env: docker
   plan: standard
   autoDeploy: false
